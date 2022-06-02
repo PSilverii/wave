@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="La comodidad también se ve bien. Te invitamos a que conozcas nuestra ropa. Tenemos locura por el Surf, y también somos cancherxs.">
+    <meta name="keywords" content="tienda online, ropa, accesorios, surf, ropa de surf, accesorios de surf, comodidad,">
+    <meta name="author" content="Patricio Silverii">
+    <meta name="copyright" content="Wave">
+    <script src="https://kit.fontawesome.com/5177fc7a42.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Wave | Ropa y accesorios de Surf</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="header__account">
+                <li class="header__account--align">
+                    <a class="header__account--btn" href="./views/log-in.html">Crear Cuenta</a>
+                </li>
+                <li class="header__account--align">
+                    <a class="header__account--btn" href="./views/log-in.html">Iniciar Sesión</a>
+                </li>
+            </ul>
+            <section class="nav__mobile">
+                <label for="check__mobile">
+                    <p class="nav__btn__mobile--icon">menu</p>
+                </label>
+                <input type="checkbox" id="check__mobile">
+                <ul class="nav__menu__mobile">
+                    <li>
+                        <a class="active" href="./index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./views/pantalones.html">Pantalones</a>
+                    </li>
+                    <li>
+                        <a href="./views/remeras.html">Remeras</a>
+                    </li>
+                    <li>
+                        <a href="./views/buzos.html">Buzos</a>
+                    </li>
+                    <li>
+                        <a href="./views/zapatillas.html">Zapatillas</a>
+                    </li>
+                    <li>
+                        <a href="./views/neoprene.html">Neoprene</a>
+                    </li>
+                    <li>
+                        <a href="./views/botas.html">Botas Neoprene</a>
+                    </li>
+                    <li>
+                        <a href="./views/lycras.html">Lycras</a>
+                    </li>
+                    <li>
+                        <a href="./views/fundas.html">Fundas para tablas de Surf</a>
+                    </li>
+                    <li>
+                        <a href="./views/contactanos.html">Contactanos</a>
+                    </li>
+                </ul>
+                <div class="nav__btn__mobile">
+                    <label for="check__search__mobile">
+                        <p class="nav__btn__mobile--icon no__margin">search</p>
+                    </label>
+                    <input type="checkbox" id="check__search__mobile">
+                    <ul class="nav__btn__search__mobile">
+                        <li>
+                            <input class="nav__btn__search__mobile--input" type="text" placeholder="Buscar">
+                        </li>
+                    </ul>
+                    <label for="check__cart__mobile">
+                        <p class="nav__btn__mobile--icon">shopping_cart</p>
+                    </label>
+                    <input type="checkbox" id="check__cart__mobile">
+                    <ul class="nav__btn__cart__mobile">
+                        <li>
+                            <p>Aún no tienes nada en tu carrito</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="nav__desktop">
+                <picture class="nav__desktop--logo">
+                    <img src="./assets/img/logo-xs.png" alt="logo">
+                </picture>
+                <ul class="nav__desktop__btn">
+                    <li class="nav__desktop__btn--align">
+                        <a class="nav__desktop__btn--text" href="">Home</a>
+                    </li>
+                    <li class="nav__desktop__btn--text nav__desktop__btn--align">
+                        <label class="nav__desktop__btn--pointer" for="check__desktop">Tienda Online</label>
+                        <input type="checkbox" id="check__desktop">
+                        <ul class="nav__desktop__menu">
+                            <li>
+                                <a class="nav__desktop__menu--text" href="./views/pantalones.html">Pantalones</a>
+                            </li>
+                            <li>
+                                <a class="nav__desktop__menu--text" href="./views/remeras.html">Remeras</a>
+                            </li>
+                            <li>
+                                <a class="nav__desktop__menu--text" href="./views/buzos.html">Buzos</a>
+                            </li>
+                            <li>
+                                <a class="nav__desktop__menu--text" href="./views/zapatillas.html">Zapatillas</a>
+                            </li>
+                            <li>
+                                <a class="nav__desktop__menu--text" href="./views/neoprene.html">Neoprene</a>
+                            </li>
+                            <li>
+                                <a class="nav__desktop__menu--text" href="./views/botas.html">Botas Neoprene</a>
+                            </li>
+                            <li>
+                                <a class="nav__desktop__menu--text" href="./views/lycras.html">Lycras</a>
+                            </li>
+                            <li>
+                                <a class="nav__desktop__menu--text" href="./views/fundas.html">Fundas para tablas de Surf</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav__desktop__btn--align"><a class="nav__desktop__btn--text" href="./views/contactanos.html">Contactanos</a></li>
+                </ul>
+                <div class="nav__btn__desktop">
+                    <label for="check__search__desktop">
+                        <p class="nav__btn__desktop--icon no__margin">search</p>
+                    </label>
+                    <input type="checkbox" id="check__search__desktop">
+                    <ul class="nav__btn__search__desktop">
+                        <li>
+                            <input class="nav__btn__search__desktop--input" type="text" placeholder="Buscar">
+                        </li>
+                    </ul>
+                    <label for="check__cart__desktop">
+                        <p class="nav__btn__desktop--icon">shopping_cart</p>
+                    </label>
+                    <input type="checkbox" id="check__cart__desktop">
+                    <ul class="nav__btn__cart__desktop">
+                        <li>
+                            <p>Aún no tienes nada en tu carrito</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <main>
+        <picture class="first-view__img">
+            <img class="first-view__img--mobile" src="./assets/img/img-bg-index-xs.jpg" alt="imagen-surf">
+            <img class="first-view__img--tablet" src="./assets/img/img-bg-index-md.jpg" alt="imagen-surf">
+            <img class="first-view__img--desktop" src="./assets/img/img-bg-index-hd.jpg" alt="imagen-surf">
+        </picture>
+        <section class="destacados__index">
+            <div class="product__tittle">
+                <h1>Productos Destacados</h1>
+            </div>
+            <div class="product__img grid__one">
+                <a href="./views/model.html">
+                    <img src="./assets/img/products/buzos/buzo-1.jpg" alt="foto-buzo-varon">
+                </a>
+            </div>
+            <div class="product__text grid__two">
+                <a href="./views/model.html">
+                    <p>Buzo | 2022</p>
+                </a>
+            </div>
+            <div class="product__img grid__three">
+                <a href="./views/model.html">
+                    <img src="./assets/img/products/fundas/funda-1.jpg" alt="foto-funda-surf">
+                </a>
+            </div>
+            <div class="product__text grid__four">
+                <a href="./views/model.html">
+                    <p>Funda para tabla | 2022</p>
+                </a>
+            </div>
+            <div class="product__img grid__five">
+                <a href="./views/model.html">
+                    <img src="./assets/img/products/remeras/remera-1.jpg" alt="foto-remera-varon">
+                    </a>
+            </div>
+            <div class="product__text grid__six">
+                <a href="./views/model.html">
+                    <p>Remera | 2022</p>
+                </a>
+            </div>
+            <div class="product__img grid__seven">
+                <a href="./views/model.html">
+                    <img src="./assets/img/products/trajes/traje-1.jpg" alt="foto-traje-unisex">
+                </a>
+            </div>
+            <div class="product__text grid__eight">
+                <a href="./views/model.html">
+                    <p>Traje Neoprene | 2022</p>
+                </a>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="banner__item--mobile">
+                <div class="banner__item__icon">
+                    <div class="banner__item__icon__container">
+                        <p class="banner__item__icon__material-icons">credit_card</p>
+                    </div>
+                </div>
+                <div class="banner__item__text">
+                    <a href="#bottom">
+                        <h4 class="banner__item__text--h4">HASTA 12 CUOTAS SIN INTERES</h4>
+                        <small class="banner__item__text--info">En todos los productos</small>
+                    </a>
+                </div>
+            </div>
+            <div class="banner__item">
+                <div class="banner__item__icon">
+                    <div class="banner__item__icon__container">
+                        <p class="banner__item__icon__material-icons">sync</p>
+                    </div>
+                </div>
+                <div class="banner__item__text">
+                    <a href="./views/contact.html">
+                        <h4 class="banner__item__text--h4">DEVOLUCIONES GRATUITAS</h4>
+                        <small class="banner__item__text--info">Dentro de los primeros 30 días de recibir el
+                            producto</small>
+                    </a>
+                </div>
+            </div>
+            <div class="banner__item--tablet">
+                <div class="banner__item__icon">
+                    <div class="banner__item__icon__container">
+                        <p class="banner__item__icon__material-icons">local_shipping</p>
+                    </div>
+                </div>
+                <div class="banner__item__text">
+                    <a href="#bottom">
+                        <h4 class="banner__item__text--h4">ENVIOS GRATIS A TODO EL PAIS</h4>
+                        <small class="banner__item__text--info">Si tu compra supera los $12.000</small>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="bottom" class="footer">
+        <section class="footer--container">
+            <div class="footer__info">
+                <div class="footer__info--text">
+                    <a href="#bottom"></a>
+                    <h4 class="footer__info--h4">Indumentaria</h4>
+                    <ul class="footer__info--list">
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/remeras.html">Remeras</a>
+                        </li>
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/buzos.html">Buzos</a>
+                        </li>
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/pantalones.html">Pantalones</a>
+                        </li>
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/zapatillas.html">Zapatillas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__mobile__info--text">
+                    <h4 class="footer__info--h4">Sobre Nosotres</h4>
+                    <ul class="footer__info--list">
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/quienes-somos.html">Quienes Somos</a>
+                        </li>
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/terminos-condiciones.html">Términos y Condiciones</a>
+                        </li>
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/politicas-devolucion.html">Políticas de Devolución y Reembolso</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__info--text">
+                    <h4 class="footer__info--h4">Surf</h4>
+                    <ul class="footer__info--list">
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/neoprene.html">Neoprene</a>
+                        </li>
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/botas.html">Botas Neoprene</a>
+                        </li>
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/lycras.html">Lycras</a>
+                        </li>
+                        <li class="footer__info--items">
+                            <a class="footer__info--a" href="./views/fundas.html">Fundas para tablas de Surf</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__social--mobile">
+                <a href="https://www.instagram.com/">
+                    <div class="footer__social__circle--insta">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </a>
+                <a href="https://twitter.com/">
+                    <div class="footer__social__circle--twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </a>
+                <a href="./views/contactanos.html">
+                    <div class="footer__social__circle--email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="footer__copyright">
+                <p>© 2022 WAVE | Todos los derechos reservados | Desarrollo Web: 
+                    <a href="https://www.linkedin.com/in/patricio-silverii">Patricio Silverii</a>
+                </p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

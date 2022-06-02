@@ -1,0 +1,71 @@
+.conditions__container {
+    @include flex-col;
+    margin-top: 100px;
+}
+
+.conditions__container h1 {
+    font-family: $font;
+    color: $black;
+    font-size: 25px;
+    margin: 2% 6% 2% 6%;
+    text-align: center;
+    border-bottom: 1px solid $black;
+}
+
+.conditions__container p {
+    font-family: $font;
+    color: $black;
+    font-size: 17px;
+    line-height: 30px;
+    margin: 0 8% 8% 8%;
+    text-align: justify;
+}
+
+.conditions__container h2 {
+    font-family: Raleway;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 2% 6% 2% 6%;
+    text-align: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/* DESKTOP CONTACTANOS */
+@media screen and (min-width: 1024px) {
+
+    .conditions__container {
+        @include flex-col;
+        margin-top: 100px;
+    }
+
+    .conditions__container h1 {
+        font-family: Raleway;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        margin: 2% 6% 2% 6%;
+        padding-left: 5%;
+        padding-bottom: 2%;
+        text-align: left;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+
+    .conditions__container p {
+        font-family: Raleway;
+        color: rgb(0, 0, 0);
+        font-size: 17px;
+        line-height: 30px;
+        margin: 0 8% 3% 8%;
+        text-align: justify;
+    }
+
+    .conditions__container h2 {
+        font-family: Raleway;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin: 2% 6% 2% 6%;
+        padding-left: 5%;
+        padding-bottom: 2%;
+        text-align: left;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+}

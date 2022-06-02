@@ -1,0 +1,90 @@
+.contactanos__tittle {
+    @include align-center;
+    @include font-black;
+    margin-top: 120px;
+    font-size: 30px;
+    margin-bottom: 5%
+}
+.contactanos__tittle h1 {
+    @include font-black;
+    font-size: 30px;
+}
+.contactanos__tittle h2 {
+    @include font-black;
+    font-size: 30px;
+}
+
+.contactanos__subtittle {
+    @include font-black;
+    @include align-center;
+    font-size: 15px;
+    margin-bottom: 24px;
+}
+
+.contactanos__form {
+    @include flex-col;
+    margin: 0% 15px 0 15px;
+}
+
+.contactanos__form__group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contactanos__form__label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    @include font-black;
+    font-size: 12px;
+}
+
+.contactanos__form__input {
+    display: block;
+    @include font-black;
+    font-size: 14px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    appearance: none;
+    background-color: white;
+}
+
+.contactanos__form__input:hover{
+    border: 1px solid rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.contactanos__btn {
+    display: block;
+    @include btn;
+    padding: 15px 20px 15px 20px;
+    margin: 0 auto 50px auto;
+    justify-content: center;
+}
+
+.contactanos__btn:hover {
+    @include btn_hover;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .contactanos__form {
+        justify-content: center;
+    }
+
+    .contactanos__form__group {
+        width: 720px;
+        margin: 0 auto 20px auto;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .contactanos__form {
+        justify-content: center;
+    }
+
+    .contactanos__form__group {
+        width: 960px;
+        margin: 0 auto 20px auto;
+    }
+}
